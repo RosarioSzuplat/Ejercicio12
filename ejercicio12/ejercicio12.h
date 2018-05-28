@@ -1,6 +1,6 @@
 #ifndef EJERCICIO12__H
 #define EJERCICIO12__H
-#define MAX_LONG 1000000
+#define MAX_LONG 100
 #define MSJ_INGRESO_COMPONENTES1 "Ingrese las componentes del primer vector"
 #define MSJ_INGRESO_COMPONENTES2 "Ingrese las componentes del segundo vector"
 #define MSJ_INGRESO_DIMENSION "Ingrese la dimension de los vectores"

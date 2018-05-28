@@ -12,7 +12,7 @@ status_t veccpy(double * dest, size_t ldest, const double * orig, size_t lorig) 
 		return ST_ERROR_LONG;
 	}
 	for (i = 0; i < lorig; i++) {
-		*(dest + i) = *(orig + i);
+		*dest ++ = *orig++;
 	}
 	return ST_OK;
 }
